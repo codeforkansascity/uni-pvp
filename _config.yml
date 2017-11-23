@@ -1,2 +1,3 @@
 markdown: kramdown
-baseurl: /uni-pvp
+site:
+  baseurl: /uni-pvp
