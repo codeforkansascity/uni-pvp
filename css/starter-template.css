@@ -4,3 +4,24 @@ body {
 .starter-template {
   padding: 40px 15px;
 }
+
+/* http://www.the-art-of-web.com/css/format-dl/ */
+dl {
+
+  padding: 0.5em;
+}
+dt {
+  float: left;
+  clear: left;
+  width: 200px;
+  text-align: right;
+  font-weight: bold;
+  color: green;
+}
+dt::after {
+  content: ":";
+}
+dd {
+  margin: 0 0 0 250px;
+  padding: 0 0 1em 0;
+}
