@@ -6,11 +6,11 @@ body {
 }
 
 /* http://www.the-art-of-web.com/css/format-dl/ */
-dl {
+dl.leftcol {
 
   padding: 0.5em;
 }
-dt {
+dt > .leftcol{
   float: left;
   clear: left;
   width: 200px;
@@ -21,7 +21,7 @@ dt {
 dt::after {
   content: ":";
 }
-dd {
+dd > .leftcol {
   margin: 0 0 0 250px;
   padding: 0 0 1em 0;
 }
